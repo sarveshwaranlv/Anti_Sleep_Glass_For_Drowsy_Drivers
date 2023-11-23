@@ -1,15 +1,15 @@
-p# Anti_Sleep_Glass_For_Drowsy_Drivers
+# Anti_Sleep_Glass_For_Drowsy_Drivers
 
 
--const int xPin = 2;
--const int yPin = 3;
--void setup()
--{
+const int xPin = 2;
+const int yPin = 3;
+void setup()
+{
   Serial.begin(9600);
   pinMode(xPin, INPUT);
   pinMode(yPin, INPUT);
 }
--void loop()
+void loop()
 {
   int pulseX, pulseY;
   int accelerationX, accelerationY;
